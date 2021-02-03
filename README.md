@@ -31,12 +31,12 @@ OUTPUTS:
 cc_arr.npy          ---- non-sorted cross-correlation result array
 cc_arr_sorted.npy   ---- sorted cross-correlation result array
 
-  - Arrays are stored in the form [:,0] = Event 1 ID
-                                  [:,1] = Event 2 ID
-                                  [:,2] = Station ID
-                                  [:,3] = P Cross-correlation dt time
-                                  [:,4] = P Cross-correlation max amplitude
-                                  [:,5] = S Cross-correlation dt time
+  - Arrays are stored in the form [:,0] = Event 1 ID,
+                                  [:,1] = Event 2 ID,
+                                  [:,2] = Station ID,
+                                  [:,3] = P Cross-correlation dt time,
+                                  [:,4] = P Cross-correlation max amplitude,
+                                  [:,5] = S Cross-correlation dt time,
                                   [:,6] = S Cross-correlation max amplitude
 
 MPI_CCS.cc          ---- output in the form of a hypoDD cc data file
